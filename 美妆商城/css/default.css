@@ -1,0 +1,205 @@
+/* IMPORTS ------------------------------------------------------------*/
+
+@import url('style.css');
+/*Font Color 字体颜色
+------------------------------------------------------------*/
+.f_ccc{color:#ccc;}
+.f_666{color:#666;}
+.f_999{color:#999; text-decoration:line-through;}
+.f_f60{color:#f60;}
+.f_red{color:#ff0000;}
+.f_009{color:#009933;}
+.f_064{color:#0064BE;}
+.f_green{color:#093;}
+
+/* MIAN INDEX 首页------------------------------------------------------------*/
+.main-banner{
+	height:320px;
+	padding:10px;
+	background:#fff;
+}
+.f-l{
+	width:850px;
+	height:320px;
+	float:left;
+}
+.f-r{
+	width:290px;
+	height:320px;
+	float:right;
+	padding:0px 10px 0px 30px;
+}
+.f-r .f-btn {
+	overflow: hidden;
+	padding-bottom:25px;
+	border-bottom:1px dashed #eee;
+}
+.f-r .f-btn .buy, 
+.f-r .f-btn .join {
+	width: 192px;
+	height: 45px;
+	display: block;
+	margin: 10px auto 0;
+	background:url(../images/default/icon_index.png) no-repeat;
+}
+.f-r .f-btn .join{
+	background-position:0 -50px;
+	margin-top:20px;
+	}
+.f-r .f-btn .buy:hover,
+.f-r .f-btn .join:hover{opacity:0.8;}
+.f-r .history{
+	padding:15px 0;
+	} 
+.f-r .history h3{
+	color:#666;
+	font:14px/14px "Microsoft YaHei";
+	padding-left:50px;
+	}
+.f-r .history h3 i{font-style:normal;}
+.f-r .history p{
+	padding:10px 0 0 50px;
+	color:#666;
+	font-family:"Microsoft YaHei";
+	}
+.f-r .history p strong{
+	font-weight:bold;
+	color:#f60;
+	font-size:18px;
+	padding:0 5px;
+	}
+.f-r .tel{
+	padding:0px 40px;
+}
+
+.guarantee{
+	padding:10px 90px;
+}
+.guarantee img
+{
+	text-align:center;
+}
+
+.main-floor{
+	background-color:#fff;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.main-floor .f-tit{
+	height:35px;
+	border-bottom:3px solid #ee2172;
+}
+.main-floor .f-tit span{
+	background: #1f8cdf;
+	display: block;
+	float: left;
+	width: 35px;
+	height: 35px;
+	color: #fff;
+	font:600 16px/35px "Microsoft YaHei";
+	text-align: center;
+	margin-right: 10px;
+}
+.main-floor .f-tit cite{
+	float:left;
+	font:bold 16px/35px "Microsoft YaHei";
+	color:#333;
+	}
+.main-floor .f-tit .other{
+	float:right;
+	font:200 12px/35px "Microsoft YaHei";
+}
+.main-floor .f-tit .other a{margin-right:8px;}
+.tab-tit{
+	float:left;
+	display:block;
+	margin-left:88px;
+	width:998px;
+}
+.tab-tit li{
+	float:left;
+	padding:0px 15px;
+	font:14px/35px "Microsoft YaHei";
+	cursor:pointer;
+}
+.tab-tit li.hover{
+	background:url(../images/base/header_icon.png) no-repeat 40px -100px;
+	color:#ee2172;
+}
+.tab-lt{
+	float:left;
+	background-color:#fafafa;
+	width:200px;
+	overflow: hidden;
+	border-right:1px solid #e3e3e3;
+	border-left:1px solid #e3e3e3;
+}
+.tab-lt dl{
+	border-bottom:1px solid #e5dfdd;
+	padding-bottom:6px;
+	margin-top:6px;
+	margin:6px 10px 10px 10px;
+	overflow:hidden;
+	}
+.tab-lt dl.last{border-bottom:none}
+.tab-lt dt{
+	color:#ee2172;
+	font-weight: bold;
+	font:400 14px "\5FAE\8F6F\96C5\9ED1"
+	}
+.tab-lt dt a{text-decoration: none}
+.tab-lt dd a{
+	color:#666;
+	width:90px;
+	text-align: left;
+	display: block;
+	float:left;
+	line-height: 26px;
+	height:26px;
+	overflow: hidden;
+}
+.tab-lt dd a:hover{
+	color:#c40000;
+	text-decoration: none
+	}
+.tab-lt p{
+	margin-left:-1px;
+	background-color:#ee2172;
+	text-align:center;
+	font:400 14px/30px "Microsoft YaHei";
+	color:#fff;
+}
+.tab-lt p a{color:#fff;}
+.tab-cont{
+	float:left;
+	width:998px;
+}
+.tab-cont .tab-ad{
+	height:140px;
+	overflow:hidden;
+}
+.tab-cont .tab-ad img{
+	float:left;
+	border:none;
+	width: 332px;
+	}
+.tab-cont .tab-pro{
+	padding:5px 4px;
+	height:100%;
+	overflow:hidden;
+}
+.tab-cont .index-pro{
+	float:left;
+	width:155px;
+	padding:0px 5px;
+	}
+.tab-cont .index-pro img{
+	width:155px;
+	height:135px;
+	text-align:center;
+}
+.tab-cont .index-pro p{
+	line-height:25px;
+}
+
+/* MIAN INDEX 首页结束---------------------------------------------------------------*/
